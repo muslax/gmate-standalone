@@ -1,0 +1,27 @@
+2022-02-20 10:32:45 mlx@code > npx create-next-app gmate-standalone
+2022-02-20 10:35:33 mlx@code > cd gmate-standalone 
+2022-02-20 10:35:40 mlx@gmate-standalone > code .
+2022-02-20 10:35:48 mlx@gmate-standalone > git init
+2022-02-20 10:36:07 mlx@gmate-standalone > git add .
+2022-02-20 10:36:22 mlx@gmate-standalone > git commit -m "First commit"
+2022-02-20 10:36:37 mlx@gmate-standalone > touch devnotes.txt
+
+2022-02-20 10:40:24 mlx@gmate-standalone > npm i iron-session swr
+
+2022-02-20 10:40:39 mlx@gmate-standalone > mkdir components lib
+2022-02-20 10:41:12 mlx@gmate-standalone > touch components/Layout.jsx
+2022-02-20 10:42:01 mlx@gmate-standalone > touch components/LoginForm.jsx
+2022-02-20 10:42:12 mlx@gmate-standalone > touch lib/fetchJson.js
+2022-02-20 10:42:29 mlx@gmate-standalone > touch lib/session.js  
+2022-02-20 10:42:37 mlx@gmate-standalone > touch lib/useUser.js
+2022-02-20 10:42:53 mlx@gmate-standalone > touch pages/api/login.js
+2022-02-20 10:43:02 mlx@gmate-standalone > touch pages/api/logout.js
+2022-02-20 10:43:15 mlx@gmate-standalone > touch pages/api/user.js  
+2022-02-20 10:43:21 mlx@gmate-standalone > touch pages/gmate.jsx
+2022-02-20 10:44:11 mlx@gmate-standalone > mkdir pages/admin    
+2022-02-20 10:44:49 mlx@gmate-standalone > touch pages/admin/index.jsx
+2022-02-20 10:45:08 mlx@gmate-standalone > rm pages/api/hello.js 
+2022-02-20 10:46:12 mlx@gmate-standalone > rm pages/index.js 
+2022-02-20 10:48:06 mlx@gmate-standalone > touch pages/index.jsx
+2022-02-20 10:48:19 mlx@gmate-standalone > touch jsconfig.json
+
