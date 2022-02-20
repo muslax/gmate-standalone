@@ -24,4 +24,7 @@
 2022-02-20 10:46:12 mlx@gmate-standalone > rm pages/index.js 
 2022-02-20 10:48:06 mlx@gmate-standalone > touch pages/index.jsx
 2022-02-20 10:48:19 mlx@gmate-standalone > touch jsconfig.json
+2022-02-20 10:49:21 mlx@gmate-standalone > touch .env.development
+2022-02-20 10:50:49 mlx@gmate-standalone > touch pages/login.jsx
+
 
