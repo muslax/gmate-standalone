@@ -1,8 +1,10 @@
 import Layout from 'components/Layout'
+import useUser from 'lib/useUser'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
+  const { user } = useUser()
   return (
     <Layout>
       <div className='text-center'>
@@ -18,6 +20,8 @@ export default function Home() {
           </Link>
         </p>
       </div>
+      <pre>{JSON.stringify(user)}</pre>
+      
     </Layout>
   )
 }

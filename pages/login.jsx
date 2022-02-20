@@ -71,6 +71,7 @@ export default function Login() {
           }}
         />
       </div>
+      <pre className="text-xs mt-4">{JSON.stringify(user)}</pre>
       <style jsx>{`
         .login {
           max-width: 21rem;
