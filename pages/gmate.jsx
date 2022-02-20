@@ -14,10 +14,10 @@ export default function Gmate({ user }) {
   
   return (
     <Layout>
+      <h1 className='text-5xl text--center text-sky-700 tracking-tight font-bold my-12'>
+        Gmate<span className='text-gray-400'>Standalone</span>
+      </h1>
       <div className='text-center'>
-        <h1 className='text-6xl text-center text-sky-700 font-bold my-16'>
-          Gmate<span className='text-gray-400'>Standalone</span>
-        </h1>
 
         <p className='text-xl mb-10'>
           <span className="font-bold">

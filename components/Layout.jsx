@@ -9,7 +9,7 @@ export default function Layout({ children }) {
         <title>With Iron Session</title>
       </Head>
       <main className='antialiased max-w-5xl mx-auto px-5'>
-        <div className="container">{children}</div>
+        <div className="">{children}</div>
       </main>
     </>
   )
